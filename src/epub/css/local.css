@@ -1,12 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 b {
-  font-variant: all-small-caps;
+	font-variant: all-small-caps;
 }
 
 p.scene-end, .dedication {
-  font-variant: all-small-caps;
-  text-align: center;
+	font-variant: small-caps;
+	text-align: center;
 }
 
 span[epub|type~="subtitle"]{
