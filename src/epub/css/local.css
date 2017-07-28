@@ -1,10 +1,100 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
-b {
-	font-variant: all-small-caps;
+
+abbr.name{
+	white-space: nowrap;
 }
 
-p.scene-end, .dedication {
+b {
+	font-variant: small-caps;
+}
+
+.business-card {
+	text-align: center;
+	font-style: italic;
+}
+
+.correspondents {
+	font-variant: small-caps;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.dedication {
+	font-variant: small-caps;
+	text-align: center;
+}
+
+[epub|type~="z3998:diary"]{
+	margin: 1.5em 0;
+}
+
+[epub|type~="z3998:diary-entry"] > p:first-child,
+[epub|type~="z3998:diary-entry"] > header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:diary-entry"] header{
+	text-indent: 0;
+	text-align: center;
+}
+
+[epub|type~="se:diary.dateline"]{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-style: italic;
+}
+
+[epub|type~="z3998:letter"]{
+	margin: 1.5em 0;
+}
+
+[epub|type~="z3998:letter"] > p:first-child,
+[epub|type~="z3998:letter"] > header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:letter"] header{
+	text-indent: 0;
+	text-align: center;
+}
+
+[epub|type~="se:letter.dateline"]{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: right;
+	font-style: italic;
+}
+
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:recipient"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:valediction"]{
+	text-align: right;
+}
+
+[epub|type~="z3998:sender"]{
+	font-variant: small-caps;
+	text-align: right;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+}
+
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	margin: 0 auto 3em auto;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
+}
+
+.scene-end {
 	font-variant: small-caps;
 	text-align: center;
 }
@@ -18,15 +108,15 @@ section > header{
 	text-align: center;
 }
 
-[epub|type~="bridgehead"]{
-	display: inline-block;
-	font-style: italic;
-	margin: 0 auto 3em auto;
-	max-width: 60%;
-	text-align: justify;
-	text-indent: 0;
+table{
+	border: solid black 1px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
+td{
+	text-align: center;
+	border: solid black 1px;
 }
