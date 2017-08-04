@@ -1,18 +1,31 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-b {
+abbr.name{
+	white-space: nowrap;
+}
+
+b{
 	font-variant: small-caps;
 }
 
-.business-card {
+.business-card{
 	text-align: center;
 	font-style: italic;
 }
 
-.dedication {
+.dedication{
 	font-variant: small-caps;
 	text-align: center;
+}
+
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	margin: 0 auto 3em auto;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:diary"]{
@@ -79,16 +92,30 @@ b {
 	margin-top: 1em;
 }
 
-[epub|type~="bridgehead"]{
-	display: inline-block;
-	font-style: italic;
-	margin: 0 auto 3em auto;
-	max-width: 60%;
-	text-align: justify;
+[epub|type~="z3998:song"] p{
+	text-align: left;
 	text-indent: 0;
 }
 
-.scene-end {
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:song"] + p{
+	text-indent: 0;
+}
+
+.scene-end{
 	font-variant: small-caps;
 	text-align: center;
 }
@@ -110,6 +137,6 @@ td{
 	border: solid black 1px;
 }
 
-time {
+time{
 	display: block;
 }
