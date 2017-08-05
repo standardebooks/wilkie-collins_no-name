@@ -14,9 +14,10 @@ b{
 	font-style: italic;
 }
 
-.dedication{
+section[epub|type~="dedication"] p{
 	font-variant: small-caps;
 	text-align: center;
+	text-indent: 0;
 }
 
 [epub|type~="bridgehead"]{
@@ -119,6 +120,12 @@ b{
 
 section > header{
 	text-align: center;
+}
+
+p[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+	font-variant: small-caps;
 }
 
 table{
