@@ -38,7 +38,7 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;No Name&lt;/i&gt; is set in England during the 1840s. It follows the fortunes of two sisters, Magdalen Vanstone and her older sister Norah. Their comfortable upper-middle-class lives are shockingly disrupted when, after the sudden deaths of their parents, they discover that they are disinherited and left without either name or fortune. The headstrong Magdalen vows to recover their inheritance, by fair means or foul. Her increasing desperation makes her vulnerable to a wily confidence trickster, Captain Wragge, who promises to assist her in return for a cut of the profits.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;No Name&lt;/i&gt; was published in serial form like many of Wilkie Collins’ other works, (and like those of his mentor, Charles Dickens). They were tremendously popular in their time, with long queues forming awaiting the publication of each episode. Though not as well known as his &lt;i&gt;The Woman in White&lt;/i&gt; and &lt;i&gt;The Moonstone&lt;/i&gt;, &lt;i&gt;No Name&lt;/i&gt; is their equal in boasting interesting characters and a gripping plot. Dickens is on record as considering it to be far the superior of &lt;i&gt;The Woman in White&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;No Name&lt;/i&gt; was published in serial form like many of Wilkie Collins’ other works. They were tremendously popular in their time, with long queues forming awaiting the publication of each episode. Though not as well known as his &lt;i&gt;The Woman in White&lt;/i&gt; and &lt;i&gt;The Moonstone&lt;/i&gt;, &lt;i&gt;No Name&lt;/i&gt; is their equal in boasting a gripping plot and strong women characters (a rarity in the Victorian era). Collins’ mentor Charles Dickens is on record as considering it to be far the superior of &lt;i&gt;The Woman in White&lt;/i&gt;.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
@@ -53,6 +53,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Wilkie_Collins</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061084</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Thomas Eakins</dc:contributor>
 		<meta property="file-as" refines="#artist">Eakins, Thomas</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Thomas_Eakins</meta>
