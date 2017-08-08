@@ -7,6 +7,7 @@ abbr.name{
 
 b{
 	font-variant: small-caps;
+	font-weight: normal;
 }
 
 .business-card{
@@ -15,6 +16,7 @@ b{
 }
 
 section[epub|type~="dedication"] p{
+	margin-top: 5em;
 	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
@@ -30,7 +32,12 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="z3998:diary"]{
-	margin: 1.5em 0;
+	margin: 0;
+}
+
+[epub|type~="z3998:diary-entry"]{
+	margin-left: 0;
+	margin-right: 0;
 }
 
 [epub|type~="z3998:diary-entry"] > p:first-child,
@@ -112,6 +119,12 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
+[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
 .scene-end{
 	margin-top: 1.5em;
 	font-variant: small-caps;
@@ -120,12 +133,6 @@ section[epub|type~="dedication"] p{
 
 section > header{
 	text-align: center;
-}
-
-p[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-	font-variant: small-caps;
 }
 
 table{
@@ -141,6 +148,6 @@ td{
 	border: solid black 1px;
 }
 
-time{
+[epub|type~="se:letter.dateline"] > time{
 	display: block;
 }
