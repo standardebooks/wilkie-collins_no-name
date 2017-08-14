@@ -36,8 +36,7 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="z3998:diary-entry"]{
-	margin-left: 0;
-	margin-right: 0;
+	margin: 1.5em 0;
 }
 
 [epub|type~="z3998:diary-entry"] > p:first-child,
@@ -58,7 +57,7 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="z3998:letter"]{
-	margin: 1.5em 0;
+	margin: 1.5em 0 0 1em;
 }
 
 [epub|type~="z3998:letter"] > p:first-child,
