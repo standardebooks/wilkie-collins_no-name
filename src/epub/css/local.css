@@ -6,7 +6,7 @@ abbr.name{
 }
 
 b{
-	font-variant: small-caps;
+	font-variant: all-small-caps;
 	font-weight: normal;
 }
 
@@ -139,6 +139,7 @@ section > header{
 }
 
 table{
+	border-collapse: collapse;
 	border: solid black 1px;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -149,6 +150,15 @@ table{
 td{
 	text-align: center;
 	border: solid black 1px;
+	padding: 0 0.2em 0 0.2em;
+}
+
+td > span.alignleft {
+	float: left;
+}
+
+td > span.alignright {
+	float: right;
 }
 
 [epub|type~="se:letter.dateline"] > time{
