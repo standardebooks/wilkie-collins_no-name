@@ -34,7 +34,7 @@
 		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/1438</meta>
 		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/1438</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">After two sisters are unexpectedly and shockingly disinherited, the headstrong younger sister takes increasingly desperate measures to try to wrest back her family's fortune. Soon, she falls in with a slick confidence trickster who will stop at nothing to help her and take a share of the money.</dc:description>
+		<dc:description id="description">After two sisters are unexpectedly and shockingly disinherited, the headstrong younger sister takes increasingly desperate measures to try to wrest back her family's fortune.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;No Name&lt;/i&gt; is set in England during the 1840s. It follows the fortunes of two sisters, Magdalen Vanstone and her older sister Norah. Their comfortable upper-middle-class lives are shockingly disrupted when, after the sudden deaths of their parents, they discover that they are disinherited and left without either name or fortune. The headstrong Magdalen vows to recover their inheritance, by fair means or foul. Her increasing desperation makes her vulnerable to a wily confidence trickster, Captain Wragge, who promises to assist her in return for a cut of the profits.&lt;/p&gt;
@@ -43,6 +43,7 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1438</dc:source>
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=uva.x002178885</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/No_Name_(novel)</meta>
@@ -82,11 +83,13 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/between-the-scenes-1.xhtml" id="between-the-scenes-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/between-the-scenes-2.xhtml" id="between-the-scenes-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/between-the-scenes-3.xhtml" id="between-the-scenes-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/between-the-scenes-4.xhtml" id="between-the-scenes-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/between-the-scenes-5.xhtml" id="between-the-scenes-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/between-the-scenes-6.xhtml" id="between-the-scenes-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/between-the-scenes-7.xhtml" id="between-the-scenes-7.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-1.xhtml" id="chapter-1-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-2.xhtml" id="chapter-1-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-3.xhtml" id="chapter-1-3.xhtml" media-type="application/xhtml+xml"/>
@@ -102,16 +105,13 @@
 		<item href="text/chapter-1-13.xhtml" id="chapter-1-13.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-14.xhtml" id="chapter-1-14.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-15.xhtml" id="chapter-1-15.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/between-the-scenes-1.xhtml" id="between-the-scenes-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-1.xhtml" id="chapter-3-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-2.xhtml" id="chapter-3-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-3.xhtml" id="chapter-3-3.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/between-the-scenes-2.xhtml" id="between-the-scenes-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-5-1.xhtml" id="chapter-5-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-5-2.xhtml" id="chapter-5-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-5-3.xhtml" id="chapter-5-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-5-4.xhtml" id="chapter-5-4.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/between-the-scenes-3.xhtml" id="between-the-scenes-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-7-1.xhtml" id="chapter-7-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-7-2.xhtml" id="chapter-7-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-7-3.xhtml" id="chapter-7-3.xhtml" media-type="application/xhtml+xml"/>
@@ -126,24 +126,25 @@
 		<item href="text/chapter-7-12.xhtml" id="chapter-7-12.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-7-13.xhtml" id="chapter-7-13.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-7-14.xhtml" id="chapter-7-14.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/between-the-scenes-4.xhtml" id="between-the-scenes-4.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-9-1.xhtml" id="chapter-9-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-9-2.xhtml" id="chapter-9-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-9-3.xhtml" id="chapter-9-3.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/between-the-scenes-5.xhtml" id="between-the-scenes-5.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-11-1.xhtml" id="chapter-11-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-11-2.xhtml" id="chapter-11-2.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/between-the-scenes-6.xhtml" id="between-the-scenes-6.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-13-1.xhtml" id="chapter-13-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-13-2.xhtml" id="chapter-13-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-13-3.xhtml" id="chapter-13-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-13-4.xhtml" id="chapter-13-4.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/between-the-scenes-7.xhtml" id="between-the-scenes-7.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-15-1.xhtml" id="chapter-15-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-15-2.xhtml" id="chapter-15-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-15-3.xhtml" id="chapter-15-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-15-4.xhtml" id="chapter-15-4.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
