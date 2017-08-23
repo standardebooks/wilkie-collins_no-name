@@ -6,7 +6,7 @@ abbr.name{
 }
 
 b{
-	font-variant: all-small-caps;
+	font-variant: small-caps;
 	font-weight: normal;
 }
 
@@ -140,7 +140,8 @@ section > header{
 
 table{
 	border-collapse: collapse;
-	border: solid black 1px;
+	border-width: 1px;
+	border-style: solid;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	margin-left: auto;
@@ -149,16 +150,27 @@ table{
 
 td{
 	text-align: center;
-	border: solid black 1px;
+	border-width: 1px;
+	border-style: solid;
 	padding: 0 0.2em 0 0.2em;
 }
 
-td > span.alignleft {
-	float: left;
+table table{
+	width: 100%;
+	border-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-td > span.alignright {
-	float: right;
+table table td{
+	width: 50%;
+	border-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+table table td:last-child{
+	text-align: right;
 }
 
 [epub|type~="se:letter.dateline"] > time{
