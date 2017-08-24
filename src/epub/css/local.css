@@ -152,7 +152,7 @@ td{
 	text-align: center;
 	border-width: 1px;
 	border-style: solid;
-	padding: 0 0.2em 0 0.2em;
+	padding: .5em;
 }
 
 table table{
@@ -169,7 +169,10 @@ table table td{
 	margin-bottom: 0;
 }
 
-table table td:last-child{
+table table td{
+	text-align: left;
+}
+table table td + td{
 	text-align: right;
 }
 
