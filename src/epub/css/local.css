@@ -129,7 +129,7 @@ span[epub|type~="subtitle"]{
 }
 
 .scene-end{
-	margin-top: 1.5em;
+	margin-top: 1em;
 	font-variant: small-caps;
 	text-align: center;
 }
@@ -172,10 +172,15 @@ table table td{
 table table td{
 	text-align: left;
 }
+
 table table td + td{
 	text-align: right;
 }
 
 [epub|type~="se:letter.dateline"] > time{
 	display: block;
+}
+
+[epub|type~="z3998:diary-entry"] > p time{
+	font-style: italic;
 }
