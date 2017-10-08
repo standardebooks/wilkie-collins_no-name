@@ -40,7 +40,7 @@ section[epub|type~="dedication"] p{
 	margin-right: 0;
 }
 
-[epub|type~="z3998:diary-entry"] > p:first-child,
+[epub|type~="z3998:letter"] > header + p,
 [epub|type~="z3998:diary-entry"] > header + p{
 	text-indent: 0;
 }
@@ -59,11 +59,6 @@ section[epub|type~="dedication"] p{
 [epub|type~="z3998:letter"]{
 	margin-left: 0;
 	margin-right: 0;
-}
-
-[epub|type~="z3998:letter"] > p:first-child,
-[epub|type~="z3998:letter"] > header + p{
-	text-indent: 0;
 }
 
 [epub|type~="z3998:letter"] header{
