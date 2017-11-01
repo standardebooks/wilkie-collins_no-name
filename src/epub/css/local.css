@@ -119,12 +119,6 @@ span[epub|type~="subtitle"]{
 	font-variant: small-caps;
 }
 
-.scene-end{
-	margin-top: 1em;
-	font-variant: small-caps;
-	text-align: center;
-}
-
 section > header{
 	text-align: center;
 }
