@@ -10,6 +10,10 @@ b{
 	font-weight: normal;
 }
 
+.signature{
+	font-variant: small-caps;
+}
+
 .business-card{
 	text-align: center;
 	font-style: italic;
@@ -86,12 +90,12 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="z3998:sender"]{
-	font-variant: small-caps;
 	text-align: right;
 }
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:song"] p{
@@ -160,10 +164,6 @@ table table td{
 
 table table td + td{
 	text-align: right;
-}
-
-[epub|type~="se:letter.dateline"] > time{
-	display: block;
 }
 
 [epub|type~="z3998:diary-entry"] > p time{
