@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/wilkie-collins/no-name</dc:identifier>
 		<dc:date>2017-08-24T21:00:53Z</dc:date>
-		<meta property="dcterms:modified">2018-02-02T06:33:36Z</meta>
-		<meta property="se:revision-number">15</meta>
+		<meta property="dcterms:modified">2018-02-07T20:41:51Z</meta>
+		<meta property="se:revision-number">16</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -16,7 +16,7 @@
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
- 		<link rel="dcterms:conformsTo" href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa"/>
+		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
 		<meta property="a11y:certifiedBy">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
@@ -55,7 +55,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1438</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100654250</dc:source>
-		<meta property="se:word-count">268974</meta>
+		<meta property="se:word-count">268972</meta>
 		<meta property="se:reading-ease.flesch">72.16</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/No_Name_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/wilkie-collins_no-name</meta>
