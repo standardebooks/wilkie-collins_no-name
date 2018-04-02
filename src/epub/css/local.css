@@ -60,7 +60,7 @@ section[epub|type~="dedication"] p{
 	font-style: italic;
 }
 
-[epub|type~="z3998:letter"]{
+[epub|type~="z3998:letter"]:not(.short){
 	margin-left: 0;
 	margin-right: 0;
 }
