@@ -54,6 +54,10 @@ section[epub|type~="dedication"] p{
 	text-align: center;
 }
 
+[epub|type~="z3998:letter"] header p{
+	text-indent: 0;
+}
+
 [epub|type~="se:diary.dateline"]{
 	margin-top: 1em;
 	text-align: center;
