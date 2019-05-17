@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">No Name</dc:title>
 		<meta property="file-as" refines="#title">No Name</meta>
 		<dc:subject id="subject-1">Orphans -- Fiction</dc:subject>
@@ -36,21 +36,26 @@
 		<dc:subject id="subject-5">Sisters -- Fiction</dc:subject>
 		<dc:subject id="subject-6">Disinheritance -- Fiction</dc:subject>
 		<dc:subject id="subject-7">Illegitimacy -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1438</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/1438</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/1438</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/1438</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/1438</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/1438</meta>
-		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/1438</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh2008108587</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85108438</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008114026</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008111400</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2009123512</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">sh2009126746</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">After two sisters are unexpectedly and shockingly disinherited, the headstrong younger sister takes increasingly desperate measures to try to wrest back her family’s fortune.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;No Name&lt;/i&gt; is set in England during the 1840s. It follows the fortunes of two sisters, Magdalen Vanstone and her older sister Norah. Their comfortable upper-middle-class lives are shockingly disrupted when, after the sudden deaths of their parents, they discover that they are disinherited and left without either name or fortune. The headstrong Magdalen vows to recover their inheritance, by fair means or foul. Her increasing desperation makes her vulnerable to a wily confidence trickster, Captain Wragge, who promises to assist her in return for a cut of the profits.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;No Name&lt;/i&gt; was published in serial form like many of Wilkie Collins’ other works. They were tremendously popular in their time, with long queues forming awaiting the publication of each episode. Though not as well known as his &lt;i&gt;The Woman in White&lt;/i&gt; and &lt;i&gt;The Moonstone&lt;/i&gt;, &lt;i&gt;No Name&lt;/i&gt; is their equal in boasting a gripping plot and strong women characters (a rarity in the Victorian era). Collins’ mentor Charles Dickens is on record as considering it to be far the superior of &lt;i&gt;The Woman in White&lt;/i&gt;.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1438</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100654250</dc:source>
