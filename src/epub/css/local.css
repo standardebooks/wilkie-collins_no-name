@@ -109,12 +109,6 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
 table{
 	border-collapse: collapse;
 	border-width: 1px;
