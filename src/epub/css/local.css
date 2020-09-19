@@ -105,10 +105,6 @@ section[epub|type~="dedication"] p{
 	display: none;
 }
 
-[epub|type~="z3998:song"] + p{
-	text-indent: 0;
-}
-
 table{
 	border-collapse: collapse;
 	border-width: 1px;
@@ -162,8 +158,4 @@ table table td + td{
 
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:verse"] + p{
-	text-indent: 0;
 }
