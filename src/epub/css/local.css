@@ -62,8 +62,9 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:letter"] footer{
+footer{
 	margin-top: 1em;
+	text-align: right;
 }
 
 [epub|type~="se:letter.dateline"]{
@@ -75,14 +76,6 @@ section[epub|type~="dedication"] p{
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
-}
-
-[epub|type~="z3998:valediction"]{
-	text-align: right;
-}
-
-[epub|type~="z3998:sender"]{
-	text-align: right;
 }
 
 [epub|type~="z3998:postscript"]{
