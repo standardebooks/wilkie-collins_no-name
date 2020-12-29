@@ -84,7 +84,7 @@ footer{
 }
 
 [epub|type~="z3998:song"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -127,7 +127,7 @@ table table td{
 	border-style: none;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: left;
+	text-align: initial;
 }
 
 table table td + td{
@@ -139,7 +139,7 @@ table table td + td{
 }
 
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
