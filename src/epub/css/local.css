@@ -152,3 +152,13 @@ table table td + td{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+#chapter-6-7 blockquote > p:nth-child(2){
+	margin-top: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-6-7 blockquote > p:nth-child(3){
+	text-indent: 0;
+}
