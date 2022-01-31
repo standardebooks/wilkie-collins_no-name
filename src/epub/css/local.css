@@ -6,13 +6,13 @@
 }
 
 #chapter-1-2 blockquote{
-	text-align: center;
 	font-style: italic;
+	text-align: center;
 }
 
 section[epub|type~="dedication"] p{
-	margin-top: 5em;
 	font-variant: small-caps;
+	margin-top: 5em;
 	text-align: center;
 	text-indent: 0;
 }
@@ -48,9 +48,9 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="se:diary.dateline"]{
+	font-style: italic;
 	margin-top: 1em;
 	text-align: center;
-	font-style: italic;
 }
 
 [epub|type~="z3998:letter"]:not(.short){
@@ -68,9 +68,9 @@ footer{
 }
 
 [epub|type~="se:letter.dateline"]{
+	font-style: italic;
 	margin-top: 1em;
 	text-align: right;
-	font-style: italic;
 }
 
 [epub|type~="z3998:salutation"],
@@ -100,34 +100,34 @@ footer{
 
 table{
 	border-collapse: collapse;
-	border-width: 1px;
 	border-style: solid;
-	margin-top: 1em;
+	border-width: 1px;
 	margin-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 1em;
 }
 
 td{
-	text-align: center;
-	border-width: 1px;
 	border-style: solid;
+	border-width: 1px;
 	padding: .5em;
+	text-align: center;
 }
 
 table table{
-	width: 100%;
 	border-style: none;
-	margin-top: 0;
 	margin-bottom: 0;
+	margin-top: 0;
+	width: 100%;
 }
 
 table table td{
-	width: 50%;
 	border-style: none;
-	margin-top: 0;
 	margin-bottom: 0;
+	margin-top: 0;
 	text-align: initial;
+	width: 50%;
 }
 
 table table td + td{
