@@ -63,7 +63,7 @@
 		<meta property="schema:wordCount">265193</meta>
 		<meta property="schema:educationalLevel">71.95</meta>
 		<link href="https://en.wikipedia.org/wiki/No_Name_(novel)" rel="schema:sameAs"/>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/wilkie-collins_no-name" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Wilkie Collins</dc:creator>
